@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Портфолио — Борислав Стойков</title>
+  <meta name="description" content="Портфолио на — сайтове, дизайн и фронтенд умения." />
+  <!-- Tailwind via CDN for quick styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .project-image{height: 260px; object-fit: cover;}
+    body {background: linear-gradient(135deg, #f9fafb, #e0f2fe, #fef3c7, #fce7f3);} 
+  </style>
+</head>
+<body class="text-gray-800 leading-relaxed">
+  <header class="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#hero" class="font-semibold text-xl text-blue-700">Борислав Стойков</a>
+      <nav class="space-x-4 text-sm">
+        <a href="#projects" class="hover:underline text-pink-600">Проекти</a>
+        <a href="#about" class="hover:underline text-yellow-600">За мен</a>
+        <a href="#contact" class="hover:underline text-purple-600">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <!-- Hero -->
+    <section id="hero" class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-blue-700">Здравейте, аз съм Борислав</h1>
+        <p class="mb-6 text-purple-700">Създавам ясни, бързи и удобни сайтове с HTML, CSS и JavaScript. Обичам цветни и живи дизайни, които впечатляват и оставят приятно усещане.</p>
+        <div class="flex gap-3">
+          <a href="#projects" class="px-4 py-2 bg-pink-600 text-white rounded shadow">Виж проекти</a>
+          <a href="#contact" class="px-4 py-2 border border-yellow-500 text-yellow-700 rounded">Свържи се</a>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="https://scontent.fsof5-1.fna.fbcdn.net/v/t39.30808-6/481249851_2480443642347540_7051121890467688585_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=1sBHke6_dtQQ7kNvwGaa-tK&_nc_oc=Adkl17sVX8YFCv39kVJHDp-MCEZDMDYIocYSnKDBLyqgsYUEipE6Ly3pvLhz_yXlz40&_nc_zt=23&_nc_ht=scontent.fsof5-1.fna&_nc_gid=tfnUgzfKxez94PHWCSERtA&oh=00_Afbfi-qZKY4MbA8LA1JMdEe-01lz5qgBQGFsZVM7207WsA&oe=68E43BB1" alt="profile" class="rounded-lg shadow-lg border-4 border-blue-400">
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mt-14">
+      <h2 class="text-2xl font-semibold mb-6 text-pink-600">Проект</h2>
+      <div class="grid md:grid-cols-1 gap-6">
+        <!-- Project 1: сайт за ремонт на покриви -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-yellow-400">
+          <img class="project-image w-full" src="Екранна снимка 2025-10-02 165717.png" alt="Сайт за ремонт на покриви">
+          <div class="p-4">
+            <h3 class="font-semibold text-blue-700">Сайт за ремонт на покриви</h3>
+            <p class="text-sm text-gray-700 mt-2">Реален проект за представяне на услуги по ремонт на покриви и довършителни строителни дейности. Сайтът включва адаптивен дизайн и ясна структура.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <a href="https://68308bafa0f9fdfe51cec2ae--elegant-heliotrope-38cfde.netlify.app/" class="text-sm underline text-purple-600"> Линк</a>
+              <span class="text-xs text-pink-600">HTML • CSS</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mt-14 bg-white p-6 rounded-lg shadow-md border-l-4 border-pink-500">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-700">За мен</h2>
+      <p class="text-gray-700">Казвам се Борислав Стойков. Имам опит в строителството и правя сайтове — комбинация, която ми дава силен практически усет към нуждите на клиентите: простота, надеждност и бърза реализация. Харесва ми да създавам цветни и позитивни дизайни.</p>
+      <ul class="mt-4 grid sm:grid-cols-2 gap-2 text-sm text-gray-700">
+        <li>HTML / CSS / базов JavaScript</li>
+        <li>Адаптивен дизайн (mobile-first)</li>
+        <li>Прототипиране: Figma / Canva</li>
+        <li>SEO basics & performance</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mt-14">
+      <h2 class="text-2xl font-semibold mb-4 text-blue-700">Контакти</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md border-2 border-pink-400">
+          <p class="mb-4">Телефон: <strong>+359 89 7631048</strong></p>
+          <p class="mb-4">Имейл: <strong><a href="mailto:bstojkara@gmail.com" class="underline text-purple-700">bstojkara@gmail.com</a></strong></p>
+        </div>
+
+     <form 
+  action="https://formspree.io/f/mzzjgvrv" 
+  method="POST"
+>
+  <form 
+  id="contactForm"
+  action="https://formspree.io/f/mzzjgvrv" 
+  method="POST" 
+  style="background:white; padding:24px; border-radius:12px; box-shadow:0 4px 6px rgba(0,0,0,0.1); border:2px solid #FACC15; max-width:500px; margin:auto;"
+>
+  <label style="display:block; margin-bottom:8px; font-size:14px; color:#1D4ED8;" for="name">Име</label>
+  <input 
+    type="text" 
+    id="name" 
+    name="name" 
+    placeholder="Вашето име" 
+    required 
+    style="width:100%; border:1px solid #ccc; border-radius:6px; padding:8px 12px; margin-bottom:12px;"
+  />
+
+  <label style="display:block; margin-bottom:8px; font-size:14px; color:#1D4ED8;" for="email">Имейл</label>
+  <input 
+    type="email" 
+    id="email" 
+    name="email" 
+    placeholder="you@example.com" 
+    required 
+    style="width:100%; border:1px solid #ccc; border-radius:6px; padding:8px 12px; margin-bottom:12px;"
+  />
+
+  <label style="display:block; margin-bottom:8px; font-size:14px; color:#1D4ED8;" for="message">Съобщение</label>
+  <textarea 
+    id="message" 
+    name="message" 
+    rows="4" 
+    placeholder="Кратко описание..." 
+    required
+    style="width:100%; border:1px solid #ccc; border-radius:6px; padding:8px 12px; margin-bottom:12px;"
+  ></textarea>
+
+  <button type="submit" style="padding:8px 16px; background:#DB2777; color:white; border:none; border-radius:6px; cursor:pointer;">
+    Изпрати съобщение
+  </button>
+
+  <p id="formMessage" style="margin-top:12px; color:green; display:none;">Съобщението беше изпратено успешно!</p>
+</form>
+
+<script>
+  const form = document.getElementById('contactForm');
+  const formMessage = document.getElementById('formMessage');
+
+  form.addEventListener('submit', async function(event) {
+    event.preventDefault(); // спира стандартното презареждане
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        formMessage.style.display = 'block';
+        formMessage.style.color = 'green';
+        form.reset();
+        // Автоматично скриване след 5 секунди
+        setTimeout(() => { formMessage.style.display = 'none'; }, 5000);
+      } else {
+        formMessage.textContent = 'Възникна грешка при изпращане.';
+        formMessage.style.display = 'block';
+        formMessage.style.color = 'red';
+      }
+    } catch (error) {
+      formMessage.textContent = 'Възникна грешка при изпращане.';
+      formMessage.style.display = 'block';
+      formMessage.style.color = 'red';
+    }
+  });
+</script>
+
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
